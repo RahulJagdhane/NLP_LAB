@@ -12,7 +12,7 @@ from gensim.utils import simple_preprocess
 import numpy as np
 
 # reading content from sample_txt 
-text1 = open('sample_text.txt', encoding ='utf-8')
+text1 = open('As_2sampletext.txt', encoding ='utf-8')
  
 tokens1 =[]
 for line in text1.read().split('.'):
